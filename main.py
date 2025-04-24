@@ -20,7 +20,7 @@ def start_quiz():
       start_time = time.time()
       answer = input("Tava atbilde (A/B/C/D): ").strip().upper()
 
-      if answer == "A" or "B" or "C" or "D":
+      if answer in "ABCD":
          print("Atbilde ir pieņemta!")
          end_time = time.time()
 
