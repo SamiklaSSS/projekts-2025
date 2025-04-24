@@ -2,6 +2,8 @@ import time
 import random
 from questions import questions
 
+print("Tests!")
+
 def calculate_score(start, end):
    elapsed = end - start
    score = max(0, int(1000 - elapsed * 50))
@@ -41,3 +43,4 @@ def start_quiz():
 
 if __name__ == "__main__":
    start_quiz()
+
