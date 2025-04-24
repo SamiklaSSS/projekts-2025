@@ -12,19 +12,18 @@ Analīze - eksistējošo risinājumu analīze, ekrānšāviņi, plusi un mīnusi
 
 Projektēšana - specifikācija, vismaz 5 funkcionālas un 5 nefunkcionālas prasības: 
 
-Ir iespējas izveidot jautājumus, kur vajag izvēlēties pareizu atbildi. 
+Ir iespējas izveidot, pivienot jautājumus, kur vajag izvēlēties pareizu atbildi. 
 
 Ir iespēja testam pievienot vairāk par 5 jautājumiem. 
 
-Ir iespēja redzēt savus rezultātus. 
+Ir iespēja redzēt savus rezultātus, pēc katras atbildes. 
 
 Katra jautajumā var būt tikai viena pareiza atbilde 
 
 Saņemtais punktu skaits samazinās ar laiku. 
 
- 
 
-Viss ir terminalĪ. 
+Viss ir realizēts terminalĪ. 
 
 Kods izdrukā nākamo jautajumu pēc atbildes uz iepriekšejo. 
 
@@ -32,22 +31,22 @@ Kods atbild atrāk par 3 sekundēm.
 
 Izmantojas emoji. 
 
-Var mainīt kartību, kurā radās jautājumi. 
+Ir dots laiks sagatavošanai nākamajam jautajumam, pauze. 
 
 Plānošana - darba uzdevumu saraksts, vismaz 5: 
 
- Iesākt veidot kodu 
+Iesākt veidot kodu 
 
-Pievienot jautājumus 
+Izdarīt tā lai lietotājs varētu pievienot savus jautājumus 
 
-Testēt visu programmu uzreiz 
+Notestēt visu programmu
 
-"Palaist" programmu ārā 
+Izmēgīnāt testēt programmu ar cilvēkiem
 
 Risinājuma prezentācija - demo vai ekrānšāviņi: 
 
- 
 
- 
 
-Fizikas/matemātikas(formulu) kalkulators 
+
+
+python cli choice lib
