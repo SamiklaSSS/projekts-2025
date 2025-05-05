@@ -28,7 +28,6 @@ def start_quiz():
         for key, value in q["options"].items():
             print(f"[cyan]{key}:[/cyan] {value}")
 
-        # Simulē vizuālu taimeri (dekoratīvi)
         simulate_timer(2)
 
         start_time = time.time()
@@ -54,3 +53,5 @@ def start_quiz():
 
 if __name__ == "__main__":
     start_quiz()
+
+#pip install reach
