@@ -33,12 +33,12 @@ def start_quiz():
         start_time = time.time()
         answer = input("\nTava atbilde (A/B/C/D): ").strip().upper()
         end_time = time.time()
-
+#validācija
         if answer in "ABCD":
             print("[green]Atbilde ir pieņemta![/green]")
         else:
             print("[red]Atbilde nav pieņemta![/red]")
-
+#pārbaude vai atbilde ir pareiza
         if answer == q["correct"]:
             score = calculate_score(start_time, end_time)
             print(f"[bold green]Pareizi! Tu nopelnīji {score} punktus.[/bold green]")
