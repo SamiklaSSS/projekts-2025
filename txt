@@ -6,6 +6,7 @@ Analīze - Mērķauditorija, kura lietos programmu:
 Analīze - eksistējošo risinājumu analīze, ekrānšāviņi, plusi un mīnusi: 
      Mani draugi, lai izveidotu savus testus izmantoja dažādas vietnes, piemāram, "Kahoot". (+) Kahoot dod plašu iespēju testu veidošanai, ir daudz jautājumu veidošanas veidu. Neitrāls, uzrānojšs dizains, vienkārša, saprotama izmantošana. (-)Pastāv ierobežojumi tiem, kas izmanto bezmaksas Kahoot versiju. Ierobežots jautājumu skaits, ierobežots spēlētāju skaits, kas var piedalīties spēlē, nevar publicēt savus testus. 
 
+
 Projektēšana - specifikācija, vismaz 5 funkcionālas un 5 nefunkcionālas prasības: 
      Ir iespējas izveidot, pivienot jautājumus, kur vajag izvēlēties pareizu atbildi. 
      Ir iespēja testam pievienot vairāk par 5 jautājumiem. 
@@ -18,6 +19,7 @@ Projektēšana - specifikācija, vismaz 5 funkcionālas un 5 nefunkcionālas pra
      Dažādas krāsas tekstiem
      Ir dots laiks sagatavošanai nākamajam jautajumam, pauze. 
 
+
 Plānošana - darba uzdevumu saraksts, vismaz 5: 
      Atrast bibliotēkas, kuras varētu būt piemērotas viktorinai
      Izmantojot bibliotēkas iesākt veidot kodu
@@ -25,18 +27,19 @@ Plānošana - darba uzdevumu saraksts, vismaz 5:
      Uzlabot kļūdas, kas paradījas testēšanas laikā
 Risinājuma prezentācija - demo vai ekrānšāviņi: 
 
+
 Testēšana
      Testēšana - 2 veiksmes scenāriji
           1. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas pareizu atbildi, lietotājam tiek piešķirti punkti
           2. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas nepareizu atbildi, lietotājam netiek piešķirti punkti
      Testēšana - 4 lietošanas scenāriji
-          1. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas kādu citu burtu, nevis burtus, kas atbild par atbildem, lietotāja atbilde ne tiek pieņemta
-          2. Zinot ka lietotājs izmanto kodu, kad lietotājs domā vairāk par 10 sekundēm, lietotājam netiek piešķirti punkti
-          3. Zinot ka lietotājs izmanto kodu, kad lietotājs pirms koda palaišanas pareizi noformē jautājumus, kurus pievienoja viktorinai, kods strādā bez kļūdam
-          4. Zinot ka lietotājs izmanto kodu, kad lietotājs ievda atbildes burtu kā mazu burtu, lietotājam tiek piešķirti punkti ja tā ir pareiza atbilde
+          1. Zinot ka lietotājs izmanto kodu, kad lietotājs domā vairāk par 10 sekundēm, lietotājam netiek piešķirti punkti vispār
+          2. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas kādu citu burtu vai ciparu, nevis burtus, kas atbild par atbildem, lietotāja atbilde ne tiek pieņemta
+          3. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas kādu speciālu simbolu, nevis burtus, kas atbild par atbildem, lietotāja atbilde ne tiek pieņemta
+          4. Zinot ka lietotājs izmanto kodu, kad lietotājs ievda atbildes burtu kā mazu vai lielu burtu, lietotājam jebkurā gadījumā tiek piešķirti punkti ja tā ir pareiza atbilde
      Testēšana - 2 robež-scenāriji
-          1. 
-          2. 
+          1. Zinot ka lietotājs izmanto kodu, kad lietotājs pirms koda palaišanas nepareizi noformē jautājumus, kurus pievienoja viktorinai, kods nestrādā pareizi
+          2. Zinot ka lietotājs izmanto kodu, kad lietotājs pirms koda palaišanas vispār noņem nost jautājumus no faila "questions.py", kods nestrādā pareizi
      Testēšana - 4 automatizēti testi (pytest bilbiotēka)
 
 
