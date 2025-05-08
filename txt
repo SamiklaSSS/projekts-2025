@@ -1,48 +1,28 @@
 Tests "zināšanas par apkāretējo pasauli"
-
 Analīze - Problēmas apraksts, kāpēc tā ir aktuāla: 
      Mēs ar draugiem nolēmam izskaidrot kurš no mums ir visgudrākais, saistībā ar zināšanam par apkārtejo pasauli. Manuprāt, izveidot savu testu draugiem arī varētu būt laba ideja.  
-
 Analīze - Mērķauditorija, kura lietos programmu: 
      Cilvēki kas grib pārbaudīt savas zināšanas par apkārtējo pasauli, vai grib izveidot savu testu ar saviem jautajumiem. 
-
 Analīze - eksistējošo risinājumu analīze, ekrānšāviņi, plusi un mīnusi: 
-
      Mani draugi, lai izveidotu savus testus izmantoja dažādas vietnes, piemāram, "Kahoot". (+) Kahoot dod plašu iespēju testu veidošanai, ir daudz jautājumu veidošanas veidu. Neitrāls, uzrānojšs dizains, vienkārša, saprotama izmantošana. (-)Pastāv ierobežojumi tiem, kas izmanto bezmaksas Kahoot versiju. Ierobežots jautājumu skaits, ierobežots spēlētāju skaits, kas var piedalīties spēlē, nevar publicēt savus testus. 
 
 Projektēšana - specifikācija, vismaz 5 funkcionālas un 5 nefunkcionālas prasības: 
-
-Ir iespējas izveidot, pivienot jautājumus, kur vajag izvēlēties pareizu atbildi. 
-
-Ir iespēja testam pievienot vairāk par 5 jautājumiem. 
-
-Ir iespēja redzēt savus rezultātus, pēc katras atbildes. 
-
-Katra jautajumā var būt tikai viena pareiza atbilde 
-
-Saņemtais punktu skaits samazinās ar laiku. 
-
-
-Viss ir realizēts terminalĪ. 
-
-Kods izdrukā nākamo jautajumu pēc atbildes uz iepriekšejo. 
-
-Kods atbild atrāk par 3 sekundēm. 
-
-Izmantojas emoji. 
-
-Ir dots laiks sagatavošanai nākamajam jautajumam, pauze. 
+     Ir iespējas izveidot, pivienot jautājumus, kur vajag izvēlēties pareizu atbildi. 
+     Ir iespēja testam pievienot vairāk par 5 jautājumiem. 
+     Ir iespēja redzēt savus rezultātus, pēc katras atbildes. 
+     Katra jautajumā var būt tikai viena pareiza atbilde 
+     Saņemtais punktu skaits samazinās ar laiku. 
+     Viss ir realizēts terminalĪ. 
+     Kods izdrukā nākamo jautajumu pēc atbildes uz iepriekšejo. 
+     Kods atbild atrāk par 3 sekundēm. 
+     Dažādas krāsas tekstiem
+     Ir dots laiks sagatavošanai nākamajam jautajumam, pauze. 
 
 Plānošana - darba uzdevumu saraksts, vismaz 5: 
-
-Iesākt veidot kodu 
-
-Izdarīt tā lai lietotājs varētu pievienot savus jautājumus 
-
-Notestēt visu programmu
-
-Izmēgīnāt testēt programmu ar cilvēkiem
-
+     Atrast bibliotēkas, kuras varētu būt piemērotas viktorinai
+     Izmantojot bibliotēkas iesākt veidot kodu
+     Notestēt programmu
+     Uzlabot kļūdas, kas paradījas testēšanas laikā
 Risinājuma prezentācija - demo vai ekrānšāviņi: 
 
 
