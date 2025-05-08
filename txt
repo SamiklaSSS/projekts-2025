@@ -28,15 +28,15 @@ Risinājuma prezentācija - demo vai ekrānšāviņi:
 Testēšana
      Testēšana - 2 veiksmes scenāriji
           1. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas pareizu atbildi, lietotājam tiek piešķirti punkti
-          2. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas nepareizu atbildi, lietotājam ne tiek piešķirti punkti
+          2. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas nepareizu atbildi, lietotājam netiek piešķirti punkti
      Testēšana - 4 lietošanas scenāriji
-          1.
-          2.
-          3.
-          4.
+          1. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas kādu citu burtu, nevis burtus, kas atbild par atbildem, lietotāja atbilde ne tiek pieņemta
+          2. Zinot ka lietotājs izmanto kodu, kad lietotājs domā vairāk par 10 sekundēm, lietotājam netiek piešķirti punkti
+          3. Zinot ka lietotājs izmanto kodu, kad lietotājs pirms koda palaišanas pareizi noformē jautājumus, kurus pievienoja viktorinai, kods strādā bez kļūdam
+          4. Zinot ka lietotājs izmanto kodu, kad lietotājs ievda atbildes burtu kā mazu burtu, lietotājam tiek piešķirti punkti ja tā ir pareiza atbilde
      Testēšana - 2 robež-scenāriji
-          1.
-          2.
+          1. 
+          2. 
      Testēšana - 4 automatizēti testi (pytest bilbiotēka)
 
 
