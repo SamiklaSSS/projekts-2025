@@ -8,5 +8,10 @@ questions = [
 "question": "Kāda bija visizplātītāka valūta pasaulē 1900. gadā?",
 "options": {"A": "Sterliņu mārciņš", "B": "Rubls", "C": "Eiro", "D": "Vācu marka"},
 "correct": "A"
+},
+{
+ "question": "Kurā gadā sākās Lielā Franču revolūcija?",
+"options": {"A": "1776", "B": "1814", "C": "1789", "D": "1201"},
+"correct": "C"
 }
 ]
