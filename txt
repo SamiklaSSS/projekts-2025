@@ -25,7 +25,19 @@ Plānošana - darba uzdevumu saraksts, vismaz 5:
      Uzlabot kļūdas, kas paradījas testēšanas laikā
 Risinājuma prezentācija - demo vai ekrānšāviņi: 
 
-
+Testēšana
+     Testēšana - 2 veiksmes scenāriji
+          1. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas pareizu atbildi, lietotājam tiek piešķirti punkti
+          2. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas nepareizu atbildi, lietotājam ne tiek piešķirti punkti
+     Testēšana - 4 lietošanas scenāriji
+          1.
+          2.
+          3.
+          4.
+     Testēšana - 2 robež-scenāriji
+          1.
+          2.
+     Testēšana - 4 automatizēti testi (pytest bilbiotēka)
 
 
 
