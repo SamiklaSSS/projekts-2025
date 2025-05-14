@@ -29,18 +29,18 @@ Risinājuma prezentācija - demo vai ekrānšāviņi:
 
 
 Testēšana
-     Testēšana - 2 veiksmes scenāriji
-          1. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas pareizu atbildi, lietotājam tiek piešķirti punkti
-          2. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas nepareizu atbildi, lietotājam netiek piešķirti punkti
-     Testēšana - 4 lietošanas scenāriji
-          1. Zinot ka lietotājs izmanto kodu, kad lietotājs domā vairāk par 10 sekundēm, lietotājam netiek piešķirti punkti vispār
-          2. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas kādu citu burtu vai ciparu, nevis burtus, kas atbild par atbildem, lietotāja atbilde ne tiek pieņemta
-          3. Zinot ka lietotājs izmanto kodu, kad lietotājs izvēlas kādu speciālu simbolu, nevis burtus, kas atbild par atbildem, lietotāja atbilde ne tiek pieņemta
-          4. Zinot ka lietotājs izmanto kodu, kad lietotājs ievda atbildes burtu kā mazu vai lielu burtu, lietotājam jebkurā gadījumā tiek piešķirti punkti ja tā ir pareiza atbilde
-     Testēšana - 2 robež-scenāriji
-          1. Zinot ka lietotājs izmanto kodu, kad lietotājs pirms koda palaišanas nepareizi noformē jautājumus, kurus pievienoja viktorinai, kods nestrādā pareizi
-          2. Zinot ka lietotājs izmanto kodu, kad lietotājs pirms koda palaišanas vispār noņem nost jautājumus no faila "questions.py", kods nestrādā pareizi
-     Testēšana - 4 automatizēti testi (pytest bilbiotēka)
+Testēšana - 2 veiksmes scenāriji:
+     1. Zinot, ka lietotājs piedalās viktorīnā un izvēlas pareizu atbildi, kad viņš to ievada, tad viņam tiek piešķirti punkti atkarībā no atbildes ātruma.
+     2. Zinot, ka lietotājs piedalās viktorīnā un ievada nepareizu atbildi, kad viņš to dara, tad viņš nesaņem punktus un redz pareizo atbildi.
+Testēšana - 4 lietošanas scenāriji:
+     1. Zinot, ka lietotājs domā vairāk nekā 10 sekundes, kad viņš ievada pareizu atbildi pēc šī laika, tad viņam netiek piešķirti punkti.
+     2. Zinot, ka lietotājs ievada simbolu vai burtu, kas nav A, B, C vai D, tad atbilde netiek pieņemta.
+     3. Zinot, ka lietotājs ievada speciālu simbolu (piemēram, ‘’!’’), tad atbilde netiek pieņemta.
+     4. Zinot, ka lietotājs ievada pareizo atbildes burtu ar mazo burtu (piemēram, “b”), kad tas notiek, tad atbilde tiek pārveidota par lielu burtu un pieņemta kā pareiza. 
+Testēšana - 2 robež-scenāriji:
+     1. Zinot, ka jautājums ‘’questions.py’’ failā ir nepareizi noformēts vai trūkst kāda jautājuma daļa, kad programma to mēģina nolasīt, tad rodas kļūda un spēle nestrādā.
+     2. Zinot, ka jautājumu fails ir tukšs vai nav neviena jautājuma, kad lietotājs palaiž viktorīnu, tad spēle nesākas vai uzreiz beidzas.
+
 
 
 
