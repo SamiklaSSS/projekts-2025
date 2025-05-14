@@ -6,12 +6,15 @@ from rich.progress import track
 from questions import questions
 
 console = Console()
-print("[bold blue]Tests![/bold blue]")
+print("[bold red]Čau, spēlējam viktorīnu![/bold red]")
+time.sleep(2)
+print("[bold blue]Viktorīna![/bold blue]")
+time.sleep(1)
 
 #punktu skaitīšanaatkarībā no laika
 def calculate_score(start, end):
     elapsed = end - start
-    score = max(0, int(1000 - elapsed * 50)) 
+    score = max(0, int(1000 - elapsed * 50))
     return score
 
 #laiks lietotājam izlasīt jautājumu un domāt
